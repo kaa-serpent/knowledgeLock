@@ -43,6 +43,21 @@ On Windows PowerShell:
 Copy-Item .env.example .env
 ```
 
+Fill in your locksport.fr credentials in `.env`. If you are using Ollama's
+defaults, leave the Ollama values unchanged.
+
+Install and start Ollama before indexing or querying:
+
+```bash
+ollama serve
+```
+
+In a separate terminal, pull the configured model:
+
+```bash
+ollama pull gemma4
+```
+
 ## Usage
 
 Scrape the configured forum:
