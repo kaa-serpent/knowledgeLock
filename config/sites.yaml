@@ -1,0 +1,13 @@
+sites:
+  locksport_fr:
+    name: "Locksport.fr"
+    base_url: "https://www.locksport.fr"
+    type: "phpbb"
+    credentials_env:
+      username: "LOCKSPORT_FR_USERNAME"
+      password: "LOCKSPORT_FR_PASSWORD"
+    options:
+      delay: 1.5
+      max_topics_per_forum: null
+      skip_forum_ids: [48, 77]
+      only_forum_ids: null
